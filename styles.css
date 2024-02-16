@@ -19,4 +19,9 @@
 
 h1 {
     font-size: 200px;
+    color: green;
   }
+h2 {
+    font-size: 100px;
+    color: darksalmon
+ }
