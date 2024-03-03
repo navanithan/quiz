@@ -322,7 +322,7 @@ const  tamilChars = [
     const question = quizQuestions[currentQuestion];
     $("#question-title").text(question.letter);
     $("#question-desc").text(question.word);
-    $("#quiz-image").attr("src", "img/"+question.word+".jpg"); // Assuming "img" property in each question
+    $("#quiz-image").attr("src", "https://raw.githubusercontent.com/navanithan/quiz/main/img/"+question.word+".jpg"); // Assuming "img" property in each question
   
   }
   
